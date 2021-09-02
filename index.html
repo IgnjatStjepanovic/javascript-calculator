@@ -9,26 +9,26 @@
   </head>
   <body>
     <div id="calculator">
-      <div id="display">4564824</div>
+      <div id="display"></div>
       <div class="operations">
-        <div class="operator">+</div>
-        <div class="operator">-</div>
-        <div class="operator">/</div>
-        <div class="operator">*</div>
+        <div id="plus" class="operator" onclick="insertSymbol(this.id)">+</div>
+        <div id="minus" class="operator" onclick="insertSymbol(this.id)">-</div>
+        <div id="divide" class="operator" onclick="insertSymbol(this.id)">/</div>
+        <div id="multiply" class="operator" onclick="insertSymbol(this.id)">*</div>
       </div>
-      <div id="ndae">
+      <div id="ndae" class="ndae">
         <div class="numbersdotac">
-          <div class="ndac" id="seven">7</div>
-          <div class="ndac" id="eight">8</div>
-          <div class="ndac" id="nine">9</div>
-          <div class="ndac" id="four">4</div>
-          <div class="ndac" id="five">5</div>
-          <div class="ndac" id="six">6</div>
-          <div class="ndac" id="one">1</div>
-          <div class="ndac" id="two">2</div>
-          <div class="ndac" id="three">3</div>
-          <div class="ndac" id="zero">0</div>
-          <div class="ndac" id="dot">.</div>
+          <div class="ndac" id="seven" value="7" onclick="insertSymbol(this.id)">7</div>
+          <div class="ndac" id="eight" value="8" onclick="insertSymbol(this.id)">8</div>
+          <div class="ndac" id="nine" value="9" onclick="insertSymbol(this.id)">9</div>
+          <div class="ndac" id="four" value="4" onclick="insertSymbol(this.id)">4</div>
+          <div class="ndac" id="five" value="5" onclick="insertSymbol(this.id)">5</div>
+          <div class="ndac" id="six" value="6" onclick="insertSymbol(this.id)">6</div>
+          <div class="ndac" id="one" value="1" onclick="insertSymbol(this.id)">1</div>
+          <div class="ndac" id="two" value="2" onclick="insertSymbol(this.id)">2</div>
+          <div class="ndac" id="three" value="3" onclick="insertSymbol(this.id)">3</div>
+          <div class="ndac" id="zero" value="0" onclick="insertSymbol(this.id)">0</div>
+          <div class="ndac" id="dot" value="."  onclick="insertSymbol(this.id)">.</div>
           <div class="ndac" id="ac">AC</div>
         </div>
         <div class="equals">=</div>

@@ -37,6 +37,7 @@ body {
   border: 1px solid black;
   height: 100px;
   width: 100%;
+  font-size: 3rem;
 }
 
 .operations:hover {
@@ -61,7 +62,8 @@ body {
   width: 100px;
   justify-content: center;
   align-items: center;
-  border: 1px solid black;  
+  border: 1px solid black;
+  font-size: 2rem;  
 }
 
 .ndac:hover {
@@ -74,6 +76,7 @@ body {
   align-items: center;
   background-color: orange;  
   border: 1px solid black;
+  font-size: 3rem;
 }
 
 .equals:hover {
