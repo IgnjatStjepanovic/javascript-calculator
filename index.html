@@ -11,27 +11,27 @@
     <div id="calculator">
       <div id="display"></div>
       <div class="operations">
-        <div id="plus" class="operator" onclick="insertSymbol(this.id)">+</div>
-        <div id="minus" class="operator" onclick="insertSymbol(this.id)">-</div>
-        <div id="divide" class="operator" onclick="insertSymbol(this.id)">/</div>
-        <div id="multiply" class="operator" onclick="insertSymbol(this.id)">*</div>
+        <button id="plus" class="operator" onclick="insertSymbol(this.id)">+</button>
+        <button id="minus" class="operator" onclick="insertSymbol(this.id)">-</button>
+        <button id="divide" class="operator" onclick="insertSymbol(this.id)">/</button>
+        <button id="multiply" class="operator" onclick="insertSymbol(this.id)">*</button>
       </div>
       <div id="ndae" class="ndae">
         <div class="numbersdotac">
-          <div class="ndac" id="seven" value="7" onclick="insertSymbol(this.id)">7</div>
-          <div class="ndac" id="eight" value="8" onclick="insertSymbol(this.id)">8</div>
-          <div class="ndac" id="nine" value="9" onclick="insertSymbol(this.id)">9</div>
-          <div class="ndac" id="four" value="4" onclick="insertSymbol(this.id)">4</div>
-          <div class="ndac" id="five" value="5" onclick="insertSymbol(this.id)">5</div>
-          <div class="ndac" id="six" value="6" onclick="insertSymbol(this.id)">6</div>
-          <div class="ndac" id="one" value="1" onclick="insertSymbol(this.id)">1</div>
-          <div class="ndac" id="two" value="2" onclick="insertSymbol(this.id)">2</div>
-          <div class="ndac" id="three" value="3" onclick="insertSymbol(this.id)">3</div>
-          <div class="ndac" id="zero" value="0" onclick="insertSymbol(this.id)">0</div>
-          <div class="ndac" id="dot" value="."  onclick="insertSymbol(this.id)">.</div>
-          <div class="ndac" id="ac">AC</div>
+          <button class="ndac" id="seven" value="7" onclick="insertSymbol(this.id)">7</button>
+          <button class="ndac" id="eight" value="8" onclick="insertSymbol(this.id)">8</button>
+          <button class="ndac" id="nine" value="9" onclick="insertSymbol(this.id)">9</button>
+          <button class="ndac" id="four" value="4" onclick="insertSymbol(this.id)">4</button>
+          <button class="ndac" id="five" value="5" onclick="insertSymbol(this.id)">5</button>
+          <button class="ndac" id="six" value="6" onclick="insertSymbol(this.id)">6</button>
+          <button class="ndac" id="one" value="1" onclick="insertSymbol(this.id)">1</button>
+          <button class="ndac" id="two" value="2" onclick="insertSymbol(this.id)">2</button>
+          <button class="ndac" id="three" value="3" onclick="insertSymbol(this.id)">3</button>
+          <button class="ndac" id="zero" value="0" onclick="insertSymbol(this.id)">0</button>
+          <button class="ndac" id="dot" value="."  onclick="insertSymbol(this.id)">.</button>
+          <button class="ndac" id="ac" onclick="resetCalc()">AC</button>
         </div>
-        <div class="equals">=</div>
+        <div class="equals" id="equals" value="=" onclick="calculateResult()">=</div>
       </div>
         
       
